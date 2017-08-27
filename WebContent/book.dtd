@@ -1,0 +1,9 @@
+
+<!ELEMENT book (food?)>
+<!ELEMENT food (name,price)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+
+<!ATTLIST food number CDATA #FIXED "111">
+<!ATTLIST price number CDATA #FIXED "111">
+<!ATTLIST name number CDATA #FIXED "111">
